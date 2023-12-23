@@ -6,7 +6,7 @@ int main() {
 	int y = 6;
 
 
-	// constant pointer to constant 
+	// ptr is constant pointer to constant integer.
 	const int* const ptr = &x;
 
 
