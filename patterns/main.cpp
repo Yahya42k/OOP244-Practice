@@ -7,16 +7,16 @@ int main() {
 
 	int x;
 
-	cout << "Enter the reverse digit square: ";
+	cout << "Enter the rows for  digit triangle: ";
 	cin >> x;
-	int count = 1;
+	
 
-	for (size_t i = 0; i < x; i++)
+	for (size_t i = 1; i <= x; i++)
 	{
-		for (size_t j = 0; j < x; j++)
+		for (size_t j = i; j >0 ; j--)
 		{
-			cout << count << " ";
-			count++;
+			cout << j << " ";
+			
 		}cout << endl;
 	}
 
