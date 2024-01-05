@@ -9,17 +9,15 @@ int main() {
 
 	cout << "Enter the reverse digit square: ";
 	cin >> x;
-	int count = 1;
 
 	for (size_t i = 0; i < x; i++)
 	{
-		for (size_t j = 0; j < x; j++)
+		for (size_t j =x; j >0; j--)
 		{
-			cout << count << " ";
-			count++;
+			cout << j<<" ";
 		}cout << endl;
 	}
-
+	
 
 	return 0;
 }

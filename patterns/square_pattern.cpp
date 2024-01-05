@@ -7,19 +7,17 @@ int main() {
 
 	int x;
 
-	cout << "Enter the reverse digit square: ";
+	cout << "Enter the no of stars on your sqaure star pattern: ";
 	cin >> x;
-	int count = 1;
 
 	for (size_t i = 0; i < x; i++)
 	{
 		for (size_t j = 0; j < x; j++)
 		{
-			cout << count << " ";
-			count++;
+			cout << "* ";
 		}cout << endl;
-	}
 
+	}
 
 	return 0;
 }
